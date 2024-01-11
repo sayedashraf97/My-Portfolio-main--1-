@@ -1,0 +1,79 @@
+/* Add your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+/* Navbar Styles */
+navbar {
+    transition: background-color 0.5s;
+} 
+
+.navbarDark {
+    background-color: white !important;
+    color: black; /* Optional: Set text color to white for better visibility */
+}
+/* nav{
+    color:white;
+    background-color: black;
+} */
+
+
+/* ... (rest of your CSS code) */
+
+
+/* Hero Section Styles */
+.bgimage {
+    background: url('images/heroImage.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 50px 0;
+}
+
+.card {
+    height: 50%;
+    transition: transform 0.2s;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+}
+
+/* Footer Section Styles */
+#footer {
+    padding: 20px 0;
+}
+.social-icons {
+    height: 100px;
+    cursor: pointer;
+}
+.fa-linkedin-in:hover, .fa-github:hover {
+    color: #008000;
+}
+.fab {
+    color: blue;
+}
+
